@@ -12,14 +12,18 @@
     <audio id="clickSound" src="assets/click.wav"></audio>
     <audio src="assets/howdeep.wav" id="howdeep"></audio>
 
-    <div class="heading-container">
-        <div class="heading">
-            Write questions with <span class="how">'How'</span>
-
+    <div class="container">
+        <div class="heading-container">
+            <div class="heading">
+                Write questions with <span class="how">'How'</span>
+    
+            </div>
+            <div class="score">Score: <span id="score" class="score-number">0</span></div>
+                <div id="translation" class="translation"></div>
         </div>
-        <div class="score">Score: <span id="score" class="score-number">0</span></div>
-            <div id="translation" class="translation"></div>
     </div>
+
+   
 
         <!--Question 01-->
     <div class="questions-container">
@@ -69,6 +73,7 @@
         <div class="questions-container-B">
             <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 1,857 m / 6,093 ft deep.</p></div>
         </div>
+             
     
      
     <script src="script.js"></script>
