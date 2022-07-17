@@ -5,77 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>'How' Questions - 2</title>
+    <title>How Questions - 2</title>
 </head>
 <body>
+
     <audio id="audioSword" src="assets/sword.wav"></audio>
     <audio id="clickSound" src="assets/click.wav"></audio>
     <audio src="assets/howdeep.wav" id="howdeep"></audio>
 
-    <div class="master-container">
-        <h3>Write sentences with</h3>
+    <div class="heading-container">
+        <h1>Write questions with <span class="how">How</span> </h1>
     </div>
 
     <div class="score-container">
-        <h3>Score: <span id="score" class="score"></span> </h3>
+        <h2>Score: <span id="score" class="score-number">0</span> </h2>
     </div>
 
     <div id="translation" class="translation"></div>
-     
-    
 
-   
+            <!--Question 01-->
+            <div class="questions-container">
+                <div class="item-lines">
+                    <h3 class="names">A:</h3><p class="lines">How 
+                        <input id="input1" type="text" class="input" autofocus>do you practice your English? <button id="btn1T" class="btnTranslation">Translate</button> </p></div><img id="check1" src="assets/check.png" alt="" class="check">
+            </div>
+            <div class="questions-container-B">
+                <div class="item-lines"><h3 class="names">B:</h3><p class="lines">Every day - of course!</p></div>
+            </div>
+                   <!--Question 02-->
+                   <div class="questions-container">
+                    <div class="item-lines">
+                        <h3 class="names">A:</h3><p class="lines">How 
+                            <input id="input2" type="text" class="input" autofocus>is it today?<button id="btn2T" class="btnTranslation">Translate</button></p></div><img id="check2" src="assets/check.png" alt="" class="check">
+                </div>
+                <div class="questions-container-B">
+                    <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 100 degrees Fahrenheit / 38 degrees Celcius.</p></div>
+                </div>
+              <!--Question 03-->
+              <div class="questions-container">
+                <div class="item-lines">
+                    <h3 class="names">A:</h3><p class="lines">How 
+                        <input id="input3" type="text" class="input" autofocus>is Mount Everest?<button id="btn3T" class="btnTranslation">Translate</button>
+                    </p></div><img id="check3" src="assets/check.png" alt="" class="check">
+            </div>
+            <div class="questions-container-B">
+                <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's about 8.848 meters / 29.031 feet high.</p></div>
+            </div>
+                <!--Question 04-->
+                <div class="questions-container">
+                    <div class="item-lines">
+                        <h3 class="names">A:</h3><p class="lines">How 
+                            <input id="input4" type="text" class="input" autofocus>is the Golden Gate Bridge?<button id="btn4T" class="btnTranslation">Translate</button>
+                        </p></div><img id="check4" src="assets/check.png" alt="" class="check">
+                </div>
+                <div class="questions-container-B">
+                    <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 2.737 m / 8.981 ft long.</p></div>
+                </div>
+                     <!--Question 05-->
+                <div class="questions-container">
+                    <div class="item-lines">
+                        <h3 class="names">A:</h3><p class="lines">How 
+                            <input id="input5" type="text" class="input" autofocus>is the Grand Canyon?<button id="btn5T" class="btnTranslation">Translate</button>
+                        </p></div><img id="check5" src="assets/check.png" alt="" class="check">
+                </div>
+                <div class="questions-container-B">
+                    <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 1,857 m / 6,093 ft deep.</p></div>
+                </div>
 
-        <!--Question 01-->
-    <div class="questions-container">
-        <div class="item-lines">
-            <h3 class="names">A:</h3><p class="lines">How 
-                <input id="input1" type="text" class="input" autofocus>do you practice your English? <button id="btn1T" class="btnTranslation">Translate</button> </p></div><img id="check1" src="assets/check.png" alt="" class="check">
-    </div>
-    <div class="questions-container-B">
-        <div class="item-lines"><h3 class="names">B:</h3><p class="lines">Every day - of course!</p></div>
-    </div>
-           <!--Question 02-->
-           <div class="questions-container">
-            <div class="item-lines">
-                <h3 class="names">A:</h3><p class="lines">How 
-                    <input id="input2" type="text" class="input" autofocus>is it today?<button id="btn2T" class="btnTranslation">Translate</button></p></div><img id="check2" src="assets/check.png" alt="" class="check">
-        </div>
-        <div class="questions-container-B">
-            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 100 degrees Fahrenheit / 38 degrees Celcius.</p></div>
-        </div>
-      <!--Question 03-->
-      <div class="questions-container">
-        <div class="item-lines">
-            <h3 class="names">A:</h3><p class="lines">How 
-                <input id="input3" type="text" class="input" autofocus>is Mount Everest?<button id="btn3T" class="btnTranslation">Translate</button>
-            </p></div><img id="check3" src="assets/check.png" alt="" class="check">
-    </div>
-    <div class="questions-container-B">
-        <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's about 8.848 meters / 29.031 feet high.</p></div>
-    </div>
-        <!--Question 04-->
-        <div class="questions-container">
-            <div class="item-lines">
-                <h3 class="names">A:</h3><p class="lines">How 
-                    <input id="input4" type="text" class="input" autofocus>is the Golden Gate Bridge?<button id="btn4T" class="btnTranslation">Translate</button>
-                </p></div><img id="check4" src="assets/check.png" alt="" class="check">
-        </div>
-        <div class="questions-container-B">
-            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 2.737 m / 8.981 ft long.</p></div>
-        </div>
-             <!--Question 05-->
-        <div class="questions-container">
-            <div class="item-lines">
-                <h3 class="names">A:</h3><p class="lines">How 
-                    <input id="input5" type="text" class="input" autofocus>is the Grand Canyon?<button id="btn5T" class="btnTranslation">Translate</button>
-                </p></div><img id="check5" src="assets/check.png" alt="" class="check">
-        </div>
-        <div class="questions-container-B">
-            <div class="item-lines"><h3 class="names">B:</h3><p class="lines">It's 1,857 m / 6,093 ft deep.</p></div>
-        </div>         
-    
-     
+
     <script src="script.js"></script>
 </body>
 </html>

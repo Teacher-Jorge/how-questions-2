@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:wght@300&family=Open+Sans&family=Russo+One&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.master-container {
+.heading-container {
+    font-family: 'bangers';
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
     background: #ccc;
+    color:rgb(0, 109, 0);
     max-width: 600px;
     height: 50px;
     margin: 0 auto;
@@ -19,28 +22,43 @@
 }
 
 .how {
-    color: rgb(9, 255, 0);
-    text-shadow: 1px 1px 2px black;   
+    color:rgb(0, 255, 0);
+    text-shadow: 1px 1px 2px black;
 }
 
 .score-container {
+    font-family: 'bangers';
+    color:rgb(0, 109, 0);
     display: flex;
     justify-content: center;
+    align-items: center;
     position: sticky;
     top: 50px;
     background: rgb(202, 163, 163);
     max-width: 600px;
+    height: 40px;
     margin: 0 auto;
     padding: 5px;
     border: skyblue 1px solid;
 }
 
 .score-number {
-    color: rgb(21, 255, 0);
+    color:rgb(0, 255, 0);
     text-shadow: 1px 1px 2px black;
-    font-size: 2rem;
-    background: 255,255,255;
-    margin-left: 5px;
+    font-size: 1.8rem;
+}
+
+.translation {
+    max-width: 600px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #ddd;
+    border: skyblue 1px solid;
+    position: sticky;
+    top: 90px;
 }
 
 .translation {
@@ -140,3 +158,4 @@
 .btnTranslation:hover {
     background-color: rgb(255, 228, 248);
 }
+

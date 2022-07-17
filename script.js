@@ -248,12 +248,3 @@ btn5T.addEventListener('click', function() {
         audio2.play()
     }, 1800)
 })
-
-
-
-
-
-
-
-
-
