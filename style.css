@@ -6,19 +6,17 @@
 }
 
 .heading-container {
+    font-family: 'bangers';
+    color:rgb(44, 155, 0);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background: #ccc;
     max-width: 600px;
     height: 50px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background: #fff;
-    font-family: 'Bangers';
-    font-size: 1.8rem;
-    color:rgb(9, 109, 0);
     padding: 5px;
     border: skyblue 1px solid;
 }
@@ -29,19 +27,18 @@
 }
 
 .score-container {
-    max-width: 600px;
-    height: 30px;
-    margin: 0 auto;
+    font-family: 'bangers';
+    color:rgb(44, 155, 0);
+    font-size: 1.5rem;
     display: flex;
-    position: sticky;
     justify-content: center;
     align-items: center;
-    font-family: 'bangers';
-    background: #fff;
-    color:rgb(9, 109, 0);
-    font-size: 1.8rem;
     position: sticky;
     top: 50px;
+    background: rgb(202, 163, 163);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px;
     border: skyblue 1px solid;
 }
 
