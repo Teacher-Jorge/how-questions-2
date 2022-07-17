@@ -49,29 +49,16 @@
 }
 
 .translation {
-    max-width: 600px;
-    height:30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    background: #ddd;
-    border: skyblue 1px solid;
-    position: sticky;
-    top: 90px;
-}
-
-.translation {
     font-family: 'bangers';
     max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 80px;
+    top: 90px;
     margin: 0 auto;
     height: 40px;
-    background: #fff;
+    background: rgb(131, 50, 50);
     color:rgb(0, 216, 245);
     font-size: 1.3rem;
     text-shadow: 1px 1px 1px black;
