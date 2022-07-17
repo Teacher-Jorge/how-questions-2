@@ -6,7 +6,7 @@
 }
 
 .heading-container {
-    max-width: 600px;
+    max-width: 470px;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -17,7 +17,7 @@
     top: 0;
     background: #fff;
     font-family: 'Bangers';
-    font-size: 2rem;
+    font-size: 1.8rem;
     color:rgb(9, 109, 0);
     margin-bottom: 0px;
 }
@@ -28,7 +28,7 @@
 }
 
 .score-container {
-    max-width: 600px;
+    max-width: 470px;
     height: 30px;
     margin: 0 auto;
     display: flex;
@@ -38,7 +38,7 @@
     font-family: 'bangers';
     background: #fff;
     color:rgb(9, 109, 0);
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: sticky;
     top: 50px;
 }
@@ -46,21 +46,21 @@
 .score-number {
     color: rgb(21, 255, 0);
     text-shadow: 1px 1px 2px black;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background: 255,255,255;
     margin-left: 5px;
 }
 
 .translation {
     font-family: 'bangers';
-    max-width: 600px;
+    max-width: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: sticky;
     top: 80px;
     margin: 0 auto;
-    height: 30px;
+    height: 40px;
     background: #fff;
     color:rgb(0, 216, 245);
     font-size: 1.3rem;
@@ -75,6 +75,7 @@
     justify-content: start;
     font-family: 'russo one';
     font-weight: 100;
+    padding: 5px;
 }
 
 
@@ -87,6 +88,7 @@
     font-family: 'russo one';
     font-weight: 100;
     margin-bottom: 20px;
+    padding: 5px;
 }
 
 .names {
@@ -126,7 +128,7 @@
 .btnTranslation {
     width: 40px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #fff;
     color: darkcyan;
     -webkit-appearance: none;
