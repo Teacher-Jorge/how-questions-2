@@ -5,13 +5,10 @@
     margin: 0;
 }
 
-.container {
-    position: sticky;
-    top: 0;
-    background: #fff;
-}
-
 .heading-container {
+    max-width: 600px;
+    height: 50px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,33 +19,52 @@
     font-family: 'Bangers';
     font-size: 2rem;
     color:rgb(9, 109, 0);
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .how {
     color: rgb(9, 255, 0);
-    text-shadow: 1px 1px 2px black;
-    position: sticky;
-    top: 0;
+    text-shadow: 1px 1px 2px black;   
 }
 
-.score {
+.score-container {
+    max-width: 600px;
+    height: 30px;
+    margin: 0 auto;
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-family: 'bangers';
+    background: #fff;
+    color:rgb(9, 109, 0);
+    font-size: 2rem;
     position: sticky;
-    top: 0;
+    top: 50px;
 }
 
 .score-number {
     color: rgb(21, 255, 0);
     text-shadow: 1px 1px 2px black;
-    font-size: 1.7rem;
+    font-size: 2rem;
     background: 255,255,255;
     margin-left: 5px;
+}
+
+.translation {
+    font-family: 'bangers';
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
-    top: 0;
+    top: 80px;
+    margin: 0 auto;
+    height: 30px;
+    background: #fff;
+    color:rgb(0, 216, 245);
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
 }
 
 .questions-container {
@@ -105,19 +121,6 @@
 .check {
     width: 40px;
     visibility: hidden;
-}
-
-
-
-.translation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 30px;
-    color:rgb(0, 216, 245);
-    font-size: 1.3rem;
-    text-shadow: 1px 1px 1px black;
 }
 
 .btnTranslation {
