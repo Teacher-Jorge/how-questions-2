@@ -8,17 +8,17 @@
 
 .heading-container {
     font-family: 'bangers';
+    font-size: 1.3rem;
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
-    background: #ccc;
     color:rgb(0, 109, 0);
     max-width: 600px;
-    height: 50px;
+    height: 35px;
     margin: 0 auto;
-    padding: 5px;
-    border: skyblue 1px solid;
+    padding: 0px;
+    background: rgb(210, 255, 255);
 }
 
 .how {
@@ -33,17 +33,17 @@
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 50px;
-    background: rgb(202, 163, 163);
+    top: 35px;
+    background: #fff;
     max-width: 600px;
-    height: 40px;
+    height: 30px;
     margin: 0 auto;
-    padding: 5px;
-    border: skyblue 1px solid;
+    padding: 0px;
+    background: rgb(220, 255, 255);
 }
 
 .score-number {
-    color:rgb(4, 0, 255);
+    color:rgb(21, 255, 0);
     text-shadow: 1px 1px 2px black;
     font-size: 1.8rem;
 }
@@ -55,14 +55,14 @@
     justify-content: center;
     align-items: center;
     position: sticky;
-    top: 90px;
+    top: 65px;
     margin: 0 auto;
-    height: 40px;
-    background: rgb(131, 50, 50);
+    height: 30px;
+    background: #fff;
     color:rgb(0, 216, 245);
     font-size: 1.3rem;
     text-shadow: 1px 1px 1px black;
-    border: skyblue 1px solid;
+    background: rgb(230, 255, 255);
 }
 
 .questions-container {
