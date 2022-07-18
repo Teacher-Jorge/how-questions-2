@@ -20,6 +20,7 @@
     margin: 0 auto;
     padding: 0px;
     background: #fff;
+    border: #fff 1px solid;
 }
 
 .how {
@@ -41,6 +42,7 @@
     margin: 0 auto;
     padding: 0px;
     background: #fff;
+    border: #fff 1px solid;
 }
 
 .score-number {
@@ -64,6 +66,7 @@
     font-size: 1.3rem;
     text-shadow: 1px 1px 1px black;
     background: #fff;
+    border: #fff 1px solid;
 }
 
 .questions-container {
