@@ -54,7 +54,7 @@ btn1T.addEventListener('click', function() {
         btn1T.style.backgroundColor = 'white'
         btn1T.style.color = 'darkcyan'
         translation.innerHTML = ''
-    }, 1800)
+    }, 2000)
 })
 
 //Question 02
@@ -99,7 +99,7 @@ btn2T.addEventListener('click', function() {
         btn2T.style.backgroundColor = 'white'
         btn2T.style.color = 'darkcyan'
         translation.innerHTML = ''
-    }, 1800)
+    }, 2000)
 })
 //Question 03
 let input3 =document.getElementById('input3')
@@ -147,7 +147,7 @@ btn3T.addEventListener('click', function() {
         btn3T.style.backgroundColor = 'white'
         btn3T.style.color = 'darkcyan'
         translation.innerHTML = ''
-    }, 1800)
+    }, 2000)
 })
 //Question 04
 let input4 =document.getElementById('input4')
@@ -195,7 +195,7 @@ btn4T.addEventListener('click', function() {
         btn4T.style.backgroundColor = 'white'
         btn4T.style.color = 'darkcyan'
         translation.innerHTML = ''
-    }, 1800)
+    }, 2000)
 })
 //Question 05
 let input5 =document.getElementById('input5')
@@ -246,5 +246,5 @@ btn5T.addEventListener('click', function() {
         translation.innerHTML = ''
         let audio2 = document.getElementById('howdeep')
         audio2.play()
-    }, 1800)
+    }, 2000)
 })
